@@ -9,56 +9,69 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## Personal Details
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+- **Name:** Junteng Liu
+- **Position:** First-year PhD candidate, HKUST NLP Group
+- **Background:** Graduated from Shanghai Jiao Tong University (SJTU) in June 2024.
+- **Research focus:** Natural language processing and machine learning.
+- **Supervisor:** Professor Junxian He, who previously advised Junteng Liu during undergraduate studies at SJTU.
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## Education
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+### Hong Kong University of Science and Technology
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
+- **Ph.D. in Computer Science**, 2024–Present
+- HKUST NLP Group
+- Supervised by Professor Junxian He
+
+### Shanghai Jiao Tong University
+
+- **B.Eng.**, 2020–2024
+- Graduated in June 2024
+- Previously advised by Professor Junxian He during undergraduate studies at SJTU
+
+## Research Experience
+
+### MINIMAX — Research Intern
+
+- February 2025 – Present
+
+### Tencent WXG — Research Intern
+
+- June 2024 – September 2024
+- Advisor: Zifei Shan
+
+### Shanghai AI Lab — Research Intern
+
+- June 2023 – December 2023
+- Advisor: Prof. Yu Cheng
+
+## Research Skills and Interests
+
+- Natural Language Processing
+- Machine Learning
+- LLM Reasoning and Reinforcement Learning
+- Hallucination in Vision-Language Models (VLM)
+- LLM Truthfulness and Interpretability
+
+## Honors and Awards
+
+- Zhiyuan Honor Scholarship, awarded by Shanghai Jiao Tong University
+
+## Publications
+
+{% assign publications_by_order = site.publications | sort: "order" %}
+
+<ul>
+  {% for post in publications_by_order %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+  {% endfor %}
+</ul>
+
+## Contact Information
+
+- **Email:** [jliugi@connect.ust.hk](mailto:jliugi@connect.ust.hk)
+- **GitHub:** [Vicent0205](https://github.com/Vicent0205)
+- **Google Scholar:** [Google Scholar profile](https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate)
+- **X (Twitter):** [@junteng88716710](https://x.com/junteng88716710)
