@@ -12,7 +12,7 @@ repository               : "Columnvonawning/LJT-Homepage"
 # Site Author
 # Values are restricted to information recorded in memory.
 author:
-  avatar           : "profile.png"
+  avatar           : ""
   name             : "Junteng Liu"
   pronouns         :
   bio              : "First-year PhD candidate at HKUST NLP Group. Research focuses on natural language processing and machine learning."
@@ -127,7 +127,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : og-image.png
+og_image                 :
 og_description           :
 social:
   type                   : Person
@@ -147,7 +147,6 @@ analytics:
 include:
   - .htaccess
   - _pages
-  - files
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -169,6 +168,7 @@ exclude:
 keep_files:
   - .git
   - .svn
+
 
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
