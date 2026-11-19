@@ -56,7 +56,7 @@ redirect_from:
 
 ## Publications
 
-The publications recorded in memory are listed below; the same list is also available on the [Publications page]({{ '/publications/' | relative_url }}). The [Google Scholar profile](https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate) lists the publications sorted by publication date.
+Publications are listed below; the same list is also available on the [Publications page]({{ '/publications/' | relative_url }}). The [Google Scholar profile](https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate) lists the publications sorted by publication date.
 
 1. **SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond**  
    Junteng Liu, Yuanxiang Fan, Zhuo Jiang, Han Ding, Yongyi Hu, Chi Zhang, Yiqi Shi, Shitong Weng, Aili Chen, Shiqi Chen, Yunan Huang, Mozhi Zhang, Pengyu Zhao, Junjie Yan, Junxian He. *arXiv*, 2025.  
